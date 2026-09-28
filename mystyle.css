@@ -1,0 +1,41 @@
+
+body
+	{
+		background-image:url(image2.jpg);
+		background-size:Cover=image  covers the entire area;
+	    background-attachment: fixed;
+	}
+
+
+
+h1
+{
+ border-style: dashed solid dotted double;
+ border-color: red green blue orange;
+ border-width:5px;
+ border-top-width:medium;
+ border-bottom-width:thin;
+ border-left-width:thick;
+ border-right-width:10;
+ border-top:5x solid gray;
+ border: 5x solid red;
+ border-collapse:collapse;
+ margin-top:10px;
+ margin-right:30;
+ margin-bottom:30px;
+ margin-left:40px;
+}
+p
+ {
+	border-style: dashed solid dotted double;
+	border-color: red green blue gray;
+	border-width:10px;
+	border-top-width:medium;
+	border-bottom-width:thin;
+	border-left-width:thick;
+	border-right-width:5px;
+	border-top:3x solid gray;
+	border: 3px solid red;
+	border-collapse:collapse;
+ }
+	
