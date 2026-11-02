@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Dialogue Box</title>
+</head>
+<body>
+
+    <h1>JavaScript Dialogue Box Example</h1>
+
+    <p>
+        JavaScript is used to make websites interactive.
+        Dialogue boxes are used to display messages,
+        take user input and ask for confirmation.
+    </p>
+
+    <h2>Three Types of Dialogue Boxes</h2>
+
+    <button onclick="showAlert()">Alert Box</button>
+    <button onclick="showConfirm()">Confirm Box</button>
+    <button onclick="showPrompt()">Prompt Box</button>
+
+    <script>
+        function showAlert() {
+            alert("Welcome to JavaScript!");
+        }
+
+        function showConfirm() {
+            let answer = confirm("Do you like JavaScript?");
+
+            if (answer == true) {
+                alert("Thank you! You like JavaScript.");
+            } else {
+                alert("You clicked Cancel.");
+            }
+        }
+
+        function showPrompt() {
+            let name = prompt("Please enter your name:");
+
+            if (name != null && name.trim() != "") {
+                alert("Welcome " + name + "!");
+            } else {
+                alert("You did not enter your name.");
+            }
+        }
+    </script>
+
+</body>
+</html>
