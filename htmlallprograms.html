@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML All Topics Program</title>
+
+<style>
+
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+/* Typography */
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Opacity */
+.opacity {
+    background-color: red;
+    opacity: 0.5;
+    padding: 20px;
+}
+
+/* Background Image */
+.background {
+    background-image: linear-gradient(
+        lightblue, lightgreen
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    text-align: center;
+}
+
+/* Top and Bottom Border */
+.border {
+    border-top: 5px solid red;
+    border-bottom: 5px solid blue;
+    padding: 20px;
+}
+
+/* Button */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>HTML All Topics</h1>
+
+    <h2>1. Container</h2>
+    <p>This is Container Example.</p>
+
+    <h2>2. Grid</h2>
+
+    <div class="grid">
+        <div class="box">HTML</div>
+        <div class="box">CSS</div>
+        <div class="box">JavaScript</div>
+    </div>
+
+    <h2>3. Typography</h2>
+    <p style="font-size:25px; color:blue;">
+        Welcome to HTML Programming
+    </p>
+
+    <h2>4. Opacity</h2>
+    <div class="opacity">
+        Opacity Example
+    </div>
+
+    <h2>5. Background Image</h2>
+    <div class="background">
+        <h2>Background Example</h2>
+    </div>
+
+    <h2>6. Top and Bottom Border</h2>
+    <div class="border">
+        Border Top and Bottom Example
+    </div>
+
+    <h2>7. JavaScript</h2>
+
+    <button onclick="showMessage()">
+        Click Me
+    </button>
+
+    <p id="demo"></p>
+
+    <h2>8. Loop (3 Types)</h2>
+
+    <p id="loop"></p>
+
+    <h2>9. If Else (Division)</h2>
+
+    <button onclick="checkNumber()">
+        Check Number
+    </button>
+
+    <p id="result"></p>
+
+</div>
+
+<script>
+
+// JavaScript Function
+function showMessage() {
+    document.getElementById("demo").innerHTML =
+    "Welcome to JavaScript";
+}
+
+// For Loop
+let a = "";
+
+for(let i = 1; i <= 3; i++) {
+    a += i + " ";
+}
+
+document.getElementById("loop").innerHTML =
+"For Loop: " + a;
+
+// While Loop
+let b = 1;
+while(b <= 3) {
+    b++;
+}
+
+// Do While Loop
+let c = 1;
+do {
+    c++;
+}
+while(c <= 3);
+
+// If Else (Division)
+function checkNumber() {
+
+    let num = 10;
+
+    if(num % 2 == 0) {
+        document.getElementById("result").innerHTML =
+        "Number is Divisible by 2";
+    }
+    else {
+        document.getElementById("result").innerHTML =
+        "Number is Not Divisible by 2";
+    }
+}
+
+</script>
+
+</body>
+</html>
