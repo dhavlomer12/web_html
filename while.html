@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript While Loop</title>
+</head>
+<body>
+
+    <h1>JavaScript While Loop</h1>
+
+    <h2>Introduction</h2>
+
+    <p>
+        JavaScript is a programming language used to make
+        web pages interactive. A loop is used to execute
+        a block of code repeatedly.
+    </p>
+
+    <p>
+        The while loop executes the statements as long as
+        the given condition is true.
+    </p>
+
+    <h2>Display Numbers Using While Loop</h2>
+
+    <p>Numbers from 1 to 10 are displayed below:</p>
+
+    <button onclick="displayNumbers()">Click Here</button>
+
+    <p id="result"></p>
+
+    <script>
+        function displayNumbers() {
+            let i = 1;
+            let output = "";
+
+            while (i <= 10) {
+                output = output + i + "<br>";
+                i++;
+            }
+
+            document.getElementById("result").innerHTML = output;
+        }
+    </script>
+
+    <h2>Advantages of While Loop</h2>
+
+    <ul>
+        <li>It executes statements repeatedly.</li>
+        <li>It checks the condition before execution.</li>
+        <li>It is useful when the number of repetitions is not known.</li>
+        <li>It makes programs easier to write.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+
+    <p>
+        The while loop is an important decision and looping
+        statement in JavaScript. It repeats the code until
+        the condition becomes false.
+    </p>
+
+</body>
+</html>
