@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Image Program</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <style>
+
+      
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-image: url("image12.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            font-size: 50px;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            font-size: 25px;
+        }
+   
+    </style>
+</head>
+
+<body>
+
+<div class="container content">
+
+    <h1 class="text-center text-primary">
+        Background Image in Bootstrap
+    </h1>
+
+    <hr>
+
+    <h2 class="text-success">1. Introduction to Background Image</h2>
+
+    <p>
+        A background image is an image that appears behind
+        the content of a web page. It makes a website
+        beautiful and attractive. Background images are
+        commonly used in websites, home pages and banners.
+    </p>
+
+    <h2 class="text-danger">2. Background Image Properties</h2>
+
+    <p>
+        CSS provides different properties to control
+        background images. We can set the image size,
+        position, repeat and attachment according to
+        our website design.
+    </p>
+
+    <h2 class="text-success">3. Background Image Repeat</h2>
+
+    <p>
+        The background-repeat property controls whether
+        an image repeats horizontally or vertically.
+        We can also stop the image from repeating.
+    </p>
+
+    <h2 class="text-primary">4. Background Image Size</h2>
+
+    <p>
+        The background-size property controls the size
+        of the background image. The cover value makes
+        the image cover the entire background area.
+    </p>
+
+    <h2 class="text-danger">5. Background Image Position</h2>
+
+    <p>
+        The background-position property controls
+        where the background image appears.
+        It can be placed at the top, bottom,
+        center, left or right.
+    </p>
+
+    <h2 class="text-success">6. Advantages of Background Image</h2>
+
+    <ul>
+        <li>Makes websites attractive.</li>
+        <li>Improves website appearance.</li>
+        <li>Creates beautiful web page designs.</li>
+        <li>Useful for banners and home pages.</li>
+        <li>Provides a professional look.</li>
+    </ul>
+
+    <h2 class="text-primary">7. Conclusion</h2>
+
+    <p>
+        Background images are an important part of
+        web designing. HTML, CSS and Bootstrap help
+        us create beautiful and responsive websites.
+        We can easily control background images
+        using CSS properties.
+    </p>
+
+    <hr>
+
+    <h3 class="text-center text-success">
+        Thank You For Visiting!
+    </h3>
+
+</div>
+
+</body>
+</html>
